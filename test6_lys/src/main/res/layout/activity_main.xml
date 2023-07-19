@@ -16,19 +16,27 @@
         android:layout_height="305dp"
         android:src="@drawable/person" />
     <EditText
+        android:id="@+id/idInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="전화번호"
-        android:inputType="phone"/>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:hint="아이디를 입력해주세요."/>
+    <EditText
+        android:id="@+id/pwInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="네이버: www.naver.com \n이메일: lys3709@naver.com \n전화: 010-7661-3709"
-        android:autoLink="web|email"
-        android:textSize="20sp"
+        android:hint="패스워드를 입력해주세요."
+        android:inputType="textPassword"
         />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="네이버: www.naver.com \n이메일: lys3709@naver.com \n전화: 010-7661-3709"-->
+<!--        android:autoLink="web|email"-->
+<!--        android:textSize="20sp"-->
+<!--        />-->
     <Button
         android:id="@+id/btn1"
         android:fontFamily="@font/baemin"
@@ -41,6 +49,7 @@
         android:padding="5dp"
     />
     <Button
+        android:id="@+id/joinBtn"
         android:fontFamily="@font/baemin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,6 +60,7 @@
         android:padding="5dp"
         />
     <Button
+        android:id="@+id/loginBtn"
         android:fontFamily="@font/baemin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
